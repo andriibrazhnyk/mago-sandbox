@@ -5,3 +5,15 @@ file = "app/Legacy.php"
 code = "identity-comparison"
 message = "Use identity comparison `===` instead of equality comparison `==`."
 count = 1
+
+[[issues]]
+file = "app/Warnings.php"
+code = "identity-comparison"
+message = "Use identity comparison `===` instead of equality comparison `==`."
+count = 1
+
+[[issues]]
+file = "app/Warnings.php"
+code = "strict-behavior"
+message = "Call to `in_array` must enforce strict comparison."
+count = 1
