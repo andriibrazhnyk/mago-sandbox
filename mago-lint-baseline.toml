@@ -1,0 +1,7 @@
+variant = "loose"
+
+[[issues]]
+file = "app/Legacy.php"
+code = "identity-comparison"
+message = "Use identity comparison `===` instead of equality comparison `==`."
+count = 1

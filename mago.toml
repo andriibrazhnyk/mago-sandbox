@@ -1,0 +1,13 @@
+version = "1"
+php-version = "8.2.0"
+
+[source]
+workspace = "."
+paths = ["app/"]
+
+[linter]
+integrations = ["laravel", "phpunit"]
+baseline = "mago-lint-baseline.toml"
+
+[linter.rules]
+strict-types = { enabled = false }
